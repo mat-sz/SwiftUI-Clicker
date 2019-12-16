@@ -16,6 +16,7 @@
 		D8A7045223A6B29E00708345 /* SwiftUI_ClickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7045123A6B29E00708345 /* SwiftUI_ClickerTests.swift */; };
 		D8A7045D23A6B29E00708345 /* SwiftUI_ClickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7045C23A6B29E00708345 /* SwiftUI_ClickerUITests.swift */; };
 		D8A7046B23A6BBC600708345 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7046A23A6BBC600708345 /* GameState.swift */; };
+		D8A7046D23A7F94600708345 /* PointGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A7046C23A7F94600708345 /* PointGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D8A7045C23A6B29E00708345 /* SwiftUI_ClickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ClickerUITests.swift; sourceTree = "<group>"; };
 		D8A7045E23A6B29E00708345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8A7046A23A6BBC600708345 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		D8A7046C23A7F94600708345 /* PointGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				D8A7044823A6B29E00708345 /* Info.plist */,
 				D8A7044223A6B29E00708345 /* Preview Content */,
 				D8A7046A23A6BBC600708345 /* GameState.swift */,
+				D8A7046C23A7F94600708345 /* PointGenerator.swift */,
 			);
 			path = "SwiftUI Clicker";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				D8A7043B23A6B29D00708345 /* AppDelegate.swift in Sources */,
 				D8A7046B23A6BBC600708345 /* GameState.swift in Sources */,
+				D8A7046D23A7F94600708345 /* PointGenerator.swift in Sources */,
 				D8A7043D23A6B29D00708345 /* SceneDelegate.swift in Sources */,
 				D8A7043F23A6B29D00708345 /* ContentView.swift in Sources */,
 			);

@@ -28,6 +28,26 @@ struct ContentView: View {
                 Text("\(gameState.pointsPerSecond) points/s")
             }
             
+            List(gameState.pointGenerators) { pointGenerator in
+                HStack {
+                    VStack(alignment: .leading) {
+                        Text(pointGenerator.name)
+                        Text("\(pointGenerator.pointsPerSecond) points/s")
+                        Text("Price: \(pointGenerator.price) points")
+                    }
+                    Spacer()
+                    Group {
+                        Button(action: {
+                            self.gameState.purchase(pointGenerator: pointGenerator)
+                        }) {
+                            Text("Purchase")
+                        }
+                        .buttonStyle(BorderlessButtonStyle())
+                        .disabled(self.gameState.points < pointGenerator.price)
+                    }
+                }
+            }
+            
             Spacer()
         }
         .padding(20)
