@@ -24,6 +24,10 @@ struct ContentView: View {
             
             Text("\(gameState.points) points")
             
+            if gameState.pointsPerSecond > 0 {
+                Text("\(gameState.pointsPerSecond) points/s")
+            }
+            
             Spacer()
         }
         .padding(20)
